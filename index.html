@@ -3,3 +3,59 @@
 2.- Dentro de la estructura anterior, utilizando etiquetas semánticas, crea una estrutura con cabecera, menú de navegación, Barra lateral, 3 artículos y pie de página.
 3.- Crea un archivo css y rellena cada elemento de un color diferente y con una separación de 20px entre cada una de ellas
 -->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset = "utf-8"/>
+        <title>Ejercicio1</title>
+        <link rel="stylesheet" type="text/css" href="css1.css">
+    </head>
+    <body>
+        <header>
+            <div id="name">
+                  <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                    <span class="fs-4">Page Name</span>
+                  </a>
+                  </div>
+                <div id = "menu">      
+                    <a href="#" class="nav-link active" aria-current="page">Home</a>
+                    <a href="#" class="nav-link">Contact</a>
+                    <a href="#" class="nav-link">News</a>
+                    <a href="#" class="nav-link">About</a>
+              </div>
+        </header>
+        <aside>
+            <ul>
+                <li><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+                <li><a href="#" class="nav-link">Contact</a></li>
+                <li><a href="#" class="nav-link">News</a></li>
+                <li><a href="#" class="nav-link">About</a></li>
+            </ul>
+        </aside>
+        <div class ="products">
+            <div class="card">
+                <img src="xtatil.png">
+                <h4 class="product-tittle">Portátil</h4>
+                <br class="product-description">HP 255 G8 4K7Y5EA 3020E - 8GB - 256GB SSD - 15.6´´</br> W11 - ORDENADOR PORTATIL</p>
+                <h4 class="price">316,99€</h4>
+            </div>
+            <div class="card">
+                <img src="descarga.jpg">
+                <h4 class="product-tittle">Pantalla</h4>
+                <p class="product-description">Philips 243V7QDAB 24" IPS LED FullHD</p>
+                <h4 class="price">141,84€</h4>
+            </div>
+            <div class="card">
+                    <img src="raton.jpg">
+                    <h4 class="product-tittle">Ratón</h4>
+                    <p class="product-description">LOGITECH MK 220</p>
+                    <h4 class="price">27,43€</h4>
+            </div>
+        </div>
+        <footer>
+            
+        </footer>
+    </body>
+
+</html>
