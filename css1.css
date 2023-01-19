@@ -1,22 +1,24 @@
-* {
+*{
   padding: 0%;
   margin: 0px;
 }
-header {
+header{
   width: 100%;
   background-color: aqua;
   height: 70px;
   text-align: center;
   line-height: 65px;
+ 
+  
 }
 
-#container {
+#container{
   width: 95%;
-  margin: 0px auto;
+  margin:0px auto;
   border: 1px solid red;
 }
 
-#menu {
+#menu{
   margin-top: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: xx-large;
@@ -26,41 +28,44 @@ header {
   height: 50px;
   line-height: 40px;
   list-style: none;
+  
+  
 }
-#menu li {
+#menu li{
   display: inline;
 }
-#menu li a {
+#menu li a{
   margin-left: 30px;
 }
-li a {
+li a{
   text-decoration: none;
 }
-ul {
+ul{
   list-style-type: none;
 }
-.articles {
+.articles{
   display: flex;
   background-color: aquamarine;
   margin-left: 400px;
   padding: 4%;
   margin-top: 20px;
+
 }
-.article {
+.article{
   margin-left: 110px;
   background-color: rgb(194, 252, 233);
   text-align: center;
 }
-.title {
+.article .title{
   background-color: aquamarine;
   padding: 10%;
 }
 
-.description {
+.description{
   height: 400px;
 }
 
-aside {
+aside{
   text-align: center;
   background-color: darkturquoise;
   margin-top: 20px;
@@ -70,8 +75,10 @@ aside {
   line-height: 60px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
+  
+
 }
-footer {
+footer{
   background-color: darkcyan;
   text-align: center;
   margin-top: 20px;
